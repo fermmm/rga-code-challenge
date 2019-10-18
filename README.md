@@ -1,6 +1,6 @@
 # RGA Test Fernando Medina
 
-Extra features not requested in the test:
+Extra features not requested in the code challenge:
 * Message that redirects to settings when the user deny permissions
 * UI library and theme
 * Typescript
