@@ -10,7 +10,7 @@ export interface PropsMainPage extends Themed { }
 class BasicPageLayout extends Component<PropsMainPage> {
 
    render(): JSX.Element {
-      const { colors, fonts }: ThemeExt = this.props.theme as unknown as ThemeExt;
+      const { colors }: ThemeExt = this.props.theme as unknown as ThemeExt;
 
       return (
          <LinearGradient

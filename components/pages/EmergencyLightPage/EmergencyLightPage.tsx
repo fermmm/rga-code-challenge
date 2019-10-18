@@ -24,7 +24,7 @@ class EmergencyLightPage extends Component<PropsEmergencyLightPage, State> {
    }
 
    render(): JSX.Element {
-      const { colors, fonts }: ThemeExt = this.props.theme as unknown as ThemeExt;
+      const { colors }: ThemeExt = this.props.theme as unknown as ThemeExt;
       const { lightIsOn }: State = this.state;
 
       return (

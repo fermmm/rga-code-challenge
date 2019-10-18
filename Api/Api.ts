@@ -72,6 +72,9 @@ export default class Api {
          return Promise.resolve(null);
       }
 
+      /**
+       * Here we could cache the woeid to make 1 less request.
+       */
       const weatherSearch: WeatherResponse | string = await Api.request(
          { url: `${geolocationSearch[0].woeid}` }
       );
