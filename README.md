@@ -1,5 +1,10 @@
 # RGA Test Fernando Medina
 
+Extra features not requested in the test:
+* Message that redirects to settings when the user deny permissions
+* UI library and theme
+* Typescript
+
 ## Installation
 
 1. Run: `npm install -g expo-cli`.
