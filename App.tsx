@@ -7,14 +7,14 @@ import { currentTheme } from "./config";
 import { NavigationContainer, createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 import LoudDetectorPage from "./components/pages/LoudDetectorPage/LoudDetectorPage";
-import EmergencyLight from "./components/pages/EmergencyLight/EmergencyLight";
+import EmergencyLightPage from "./components/pages/EmergencyLightPage/EmergencyLightPage";
 
 const Navigator: NavigationContainer = createAppContainer(
     createStackNavigator(
     {
         Main: { screen: MainPage },
         LoudDetector: { screen: LoudDetectorPage },
-        EmergencyLight: { screen: EmergencyLight },
+        EmergencyLight: { screen: EmergencyLightPage },
     }, 
     { 
         headerMode: "none",
