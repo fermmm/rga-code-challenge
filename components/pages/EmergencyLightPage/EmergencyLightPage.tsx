@@ -20,7 +20,7 @@ class EmergencyLightPage extends Component<PropsEmergencyLightPage, State> {
    };
 
    componentDidMount(): void {
-      Torch.switchState(false);
+      Torch.switchState(this.state.lightIsOn);
    }
 
    render(): JSX.Element {
@@ -32,16 +32,17 @@ class EmergencyLightPage extends Component<PropsEmergencyLightPage, State> {
             <View style={styles.mainContainer}>
                <ButtonBack />
                <TouchableNativeFeedback
-                  onPress={() => {
-                     Torch.switchState(!lightIsOn);
-                     this.setState({ lightIsOn: !lightIsOn });
-                  }}
+                  onPress={() => this.setState({ lightIsOn: !lightIsOn }, () => this.onLightStateChange())}
                >
                   <Icon name="weather-sunny" size={150} color={lightIsOn ? colors.accent2 : colors.background2} />
                </TouchableNativeFeedback>
             </View>
          </BasicPageLayout>
       );
+   }
+
+   onLightStateChange(): void {
+      Torch.switchState(this.state.lightIsOn);
    }
 }
 
