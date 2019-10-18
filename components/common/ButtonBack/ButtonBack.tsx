@@ -8,8 +8,7 @@ import { currentTheme } from "../../../config";
 export interface Props extends NavigationInjectedProps, Partial<FABProps> { }
 
 class ButtonBack extends Component<Props> {
-   static defaultProps: Partial<Props> = {};
-
+   
    render(): JSX.Element {
       const { goBack }: NavigationScreenProp<{}> = this.props.navigation;
 
