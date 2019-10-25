@@ -1,10 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 22742,
-  "expoServerNgrokUrl": "https://mi-yw7.fermmm.rga-code-challenge.exp.direct",
-  "packagerNgrokUrl": "https://packager.mi-yw7.fermmm.rga-code-challenge.exp.direct",
-  "ngrokPid": 22772,
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
   "webpackServerPort": null
 }
