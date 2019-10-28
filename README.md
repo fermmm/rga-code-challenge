@@ -1,6 +1,12 @@
 # RGA Test Fernando Medina
 
-Extra features not requested in the code challenge:
+## Challenge requirements:
+1. Show a weather forecast for the current week and area of the user. Use the following API: metaweather.com/api/
+2. The forecast day should display the name of the day and tempeture, also the weather icon from the same API
+3. Add a "Emergency light" section where you can turn on the flash of the phone
+4. Add a "Loud detector" section that shows a ray icon when there is a loud noise
+
+Extra features I did that are not required in the code challenge:
 * Message that redirects to settings when the user deny permissions
 * UI library and theme
 * Typescript
