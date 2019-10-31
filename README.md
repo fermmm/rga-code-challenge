@@ -11,6 +11,9 @@ Extra features I did that are not required in the code challenge:
 * UI library and theme
 * Typescript
 
+Important note:
+* The project does not use Redux because is not needed in the app, not using something when is not needed is the most positive option in my opinion.
+
 ## Installation
 
 1. Run: `npm install -g expo-cli`
