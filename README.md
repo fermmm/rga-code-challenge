@@ -1,4 +1,4 @@
-# R/GA Test Fernando Medina
+# R/GA code challenge - Fernando Medina
 
 ## Challenge requirements:
 1. Show a weather forecast for the current week and area of the user. Use the following API: metaweather.com/api/
