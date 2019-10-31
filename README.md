@@ -12,7 +12,7 @@ Extra features I did that are not required in the code challenge:
 * Typescript
 
 Important notes:
-* I have experience with Redux but the app does not use Redux because is not needed in the app, using something when is not needed is a wrong desition in my opninion, so I decided to not add Redux to show that opinion.
+* I have experience with Redux but the app does not use Redux because is not needed in the app, using something when is not needed is a wrong desition in my opninion, so I decided to not add Redux to show that opinion. You can see how I use Redux with Typescript [in this repository.](https://github.com/fermmm/boilerplate-typescript-react-redux-webpack)
 
 ## Installation
 
