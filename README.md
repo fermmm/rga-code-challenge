@@ -12,7 +12,7 @@ Extra features I did that are not required in the code challenge:
 * Typescript
 
 Important note:
-* The project does not use Redux because is not needed in the app, not using something when is not needed is the most positive option in my opinion.
+* The project does not use Redux because is not needed in the app, using something when is not needed is a wrong desition in my opninion. I have experience with Redux.
 
 ## Installation
 
