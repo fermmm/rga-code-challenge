@@ -11,8 +11,8 @@ Extra features I did that are not required in the code challenge:
 * UI library and theme
 * Typescript
 
-Important note:
-* The project does not use Redux because is not needed in the app, using something when is not needed is a wrong desition in my opninion. I have experience with Redux.
+Important notes:
+* I have experience with Redux but the app does not use Redux because is not needed in the app, using something when is not needed is a wrong desition in my opninion, so I decided to not add Redux to show that opinion.
 
 ## Installation
 
