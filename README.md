@@ -14,6 +14,8 @@ Extra features I did that are not required in the code challenge:
 Important notes:
 * I have experience with Redux but the app does not use Redux because is not needed in the app, using something when is not needed is a wrong desition in my opninion, so I decided to not add Redux to show that opinion. You can see how I use Redux with Typescript [in this repository.](https://github.com/fermmm/boilerplate-typescript-react-redux-webpack)
 
+* I have experience with hooks and I like them, but I didn't use them in this test since I was limited in time and sometimes I find incompatibilities that I have to spend time solving.
+
 ## Installation
 
 1. Run: `npm install -g expo-cli`
